@@ -29,6 +29,7 @@ section .container{
     box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     width: 100%;
+    position: relative;
 }
 
 section .container .time{
@@ -38,14 +39,15 @@ section .container .time{
  .container .time .time-colon{
     display: flex;
     align-items: center;
+    position: relative;
  }
  .container .time .time-colon .time-text{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: bisque;
-    box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(162, 196, 240);
+    box-shadow: 5px 10px rgba(135, 170, 235, 0.2);
     height: 100px;
     width: 100px;
     border-radius: 6px;
@@ -69,4 +71,29 @@ section .container .time{
     font-size: 35px;
     font-weight: 600;
 
+ }
+
+ .time .time-colon .am_pm{
+    position: absolute;
+    top: 0;
+    right: -55px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+ }
+
+ section .container .icons i{
+    position: absolute;
+    right: 17px;
+    top: 17px;
+    height: 22px;
+    width: 22px;
+    background: black;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    font-size: 12px;
+    cursor: pointer;
  }
