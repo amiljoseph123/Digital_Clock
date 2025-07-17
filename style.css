@@ -1,30 +1,20 @@
 
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"');
+ @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'orbitorn', sans-serif; */
+    font-family: 'orbitorn', sans-serif; 
 
-     font-family: 'VT323', monospace;
+     /* font-family: 'VT323', monospace; */
 
-}
+} 
+
+
 section{
     min-height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: rgb(141, 137, 133);
-}
-section .container{
-    display: flex;
-    align-items: center;
-    height: 200px;
-    max-width: 580px;
-    background-color: aliceblue;
-    justify-content: center;
-    width: 100%;
-    box-shadow: 0 5px 10px;
-    border-radius: 20px;
+    justify-content:center ;
 }
