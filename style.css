@@ -7,7 +7,7 @@
     font-family: 'orbitorn', sans-serif; 
 
      /* font-family: 'VT323', monospace; */
-
+   transition: all 0.4s ease;
 } 
 
 
@@ -101,4 +101,21 @@ section .container .time{
  section .container .icons i.fa-sun{
    opacity: 0;
    pointer-events: none;
+ }
+
+  section.dark .container .icons i.fa-sun{
+   opacity: 1;
+   pointer-events: auto;
+ } 
+ section.dark{
+   background: black;
+   color: white;
+ }
+ section.dark .container{
+   background: #414040;
+ }
+  section.dark .container .icons i{
+   background:white;
+   color: black;
+   font-size: 13px;
  }
